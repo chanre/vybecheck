@@ -1,0 +1,57 @@
+body {
+  text-align: left;
+  margin: 20px;
+  min-width: 400px;
+  min-height: 60px;
+  background: #222;
+  color: white;
+  display: inline-block;
+}
+
+.arrow {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow .main {
+  width: 40px;
+  height: 40px;
+}
+
+.arrow .hover {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.arrow:hover .hover{
+  display: inline-block;
+}
+
+#title { 
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+#votes {
+  display: inline-block;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 13px;
+  width: 13px;
+}
+
+#numUpvotes {
+  text-align: center;
+}
+
+#numDownvotes {
+  text-align: center;
+}
